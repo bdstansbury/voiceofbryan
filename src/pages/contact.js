@@ -1,12 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
+import Title from "../components/title"
+import Banner from "../images/BooksWaterBanner2.png"
 
 export default function Contact() {
   return (
     <Layout>
-      <h1>I'd love to talk! Email me at the address below</h1>
+      <img src={Banner} alt="Books Water Bryan Stansbury Audiobook Narrator" style={{ minwidth: 650 }}/>
+      <Title titleText="talk to bryan" />
       <p>
-        <a href="voiceofbryan@gmail.com">voiceofbryan@gmail.com</a>a;a;sldj;a;lsdkfj;ldfja;flasdfl;jas;dlfkjas;dlfkjasdlfja;sdlfjkla;sldkfja;sldkfjla;sldkfj;a;sldkfjl;asldkfjl;asldkfj;alsdkfj;asldkfjla;sdlkfjla;sldkfja;sldkfja;sldkfja;sldkfjla;sldkfja;sldkfj;asldkfjas;ldkfjas;dlkf;jas;dlkfjas;dlkfja;sldkfjlas;dlkfjas;dlkf;jsa;dlkf;jas;ldfk;jasd;lkf;jas;ldkfjasd;lfk;jasd;lfkjas;dlkf;j
+        <a href="bstansburyvoice@gmail.com">bstansburyvoice@gmail.com</a>
       </p>
     </Layout>
   )
