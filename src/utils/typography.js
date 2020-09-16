@@ -6,11 +6,11 @@ twinPeaksTheme.overrideStyles = () => ({
     a: {
       color: "#2A8A9D", textDecoration: "none"
     },
-    "h1,h2,h3,h4,h5,h6": { color: "white" },
+    "h1,h2,h3,h4,h5,h6,p": { color: "white" },
   })
 
 const bryansTheme = Object.assign({}, twinPeaksTheme, {
-    baseFontSize: '21px', a: {
+    baseFontSize: '18px', a: {
           color: "blue",
         }, 
       

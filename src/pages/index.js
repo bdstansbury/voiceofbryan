@@ -1,14 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
+import Text from "../components/container.text"
 
 export default function Home() {
   return (
     <Layout>
-      <h2>Hi! I'm building a fake Gatsby site as part of a tutorial!</h2>
-      <p>
-        What do I like to do? Lots of course but definitely enjoy building
-        websites.
-      </p>
+      <img src= "/images/BooksWaterHeader.png" alt= "Books Water Bryan Stansbury Audiobook Narrator"></img>
+      <Text style={{ float: 'left' }}></Text>
     </Layout>
   );
 }

@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     <div style={{ margin: `3rem auto`, maxWidth: 950, minWidth: 650, padding: `0 1rem` }}>
        <header style={{ marginBottom: `1.5rem`, marginTop: `-2.5rem`, height: 45, position: 'sticky', top: '0', minWidth: 650 }}>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-          <h3 style={{ color: '#2A8A9D', display: `inline`, marginLeft: '.5rem' }}>voiceofbryan.com</h3>
+          <h3 style={{ letterSpacing: "0.05em", color: 'white', display: `inline`, marginLeft: '.5rem' }}>voiceofbryan.com</h3>
         </Link>
         <ul style={{ float: `right` }}>
           <Link to="/" style={{ marginRight: `1rem` }}>
