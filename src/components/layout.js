@@ -9,18 +9,18 @@ export default function Layout({ children }) {
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h3 style={{ letterSpacing: "0.05em", color: 'white', display: `inline`, marginLeft: '.5rem' }}>voiceofbryan.com</h3>
         </Link>
-        <ul style={{ float: `right` }}>
-          <Link to="/" style={{ marginRight: `1rem` }}>
-            <h5 style= {{ color: '#2A8A9D', display: `inline` }}>Home</h5>
+        <ul class="topnav" style={{ float: `right` }}>
+          <Link to="/" style={{ marginRight: `0rem` }}>
+            <h5 style= {{ color: '#2A8A9D', display: `inline`, padding: '10px' }}>Home</h5>
           </Link>
-          <Link to="/credits/" style={{ marginRight: `1rem` }}>
-            <h5 style= {{ color: '#2A8A9D', display: `inline` }}>Credits</h5>
+          <Link to="/credits/" style={{ marginRight: `0rem` }}>
+            <h5 style= {{ color: '#2A8A9D', display: `inline`, padding: '10px' }}>Credits</h5>
           </Link>
-          <Link to="/contact/" style={{ marginRight: `1rem` }}>
-            <h5 style= {{ color: '#2A8A9D', display: `inline` }}>Contact</h5>
+          <Link to="/contact/" style={{ marginRight: `0rem` }}>
+            <h5 style= {{ color: '#2A8A9D', display: `inline`, padding: '10px' }}>Contact</h5>
           </Link>
           <Link to="/inthebooth/" style={{ marginRight: `0rem` }}>
-            <h5 style= {{ color: '#2A8A9D', display: `inline` }}>In the Booth</h5>
+            <h5 style= {{ color: '#2A8A9D', display: `inline`, padding: '10px' }}>In the Booth</h5>
           </Link>
         </ul>
       </header>
