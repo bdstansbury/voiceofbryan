@@ -17,6 +17,7 @@
     "gatsby": "^2.24.50",
     "gatsby-plugin-typography": "^2.5.10",
     "gatsby-telemetry": "^1.3.35",
+    "mediaelement": "^4.2.16",
     "navbar.js": "^2.0.8",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
