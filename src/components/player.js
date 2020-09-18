@@ -1,15 +1,24 @@
 import React from "react"
-import mediaelement
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 
 export default function Player(props, { children }) {
   return (  
-    <div style={{ margin: '0rem', padding: `0rem` }}>
-      <h6 style={{  letterSpacing: '0.2em' }}>{props.playerTitle}</h6>
-      <audio class= "transparentFull" controls style={{ width: '100%', border: "none" }}>
-	      <source src={props.playerSrc} type="audio/mpeg" />
-	Your browser does not support the audio element.
-      </audio>
+    <div style={{ margin: '0rem', padding: `.5rem` }}>
+      <h6 style={{  letterSpacing: '0.2em', marginBottom: '0.1rem'}}>{props.playerTitle}</h6>
+      <AudioPlayer
+       autoPlay={ false }
+       src={props.playerSrc}
+       layout="horizontal-reverse"
+       onPlay={e => console.log("onPlay")}
+       showJumpControls={ false }
+       showDownloadProgress={ false }
+
+       // other props here
+  />
       {children}
     </div>
   )
 }
+

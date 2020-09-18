@@ -1,11 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
-
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 950, minWidth: 650, padding: `0 1rem` }}>
-       <header style={{ marginBottom: `0rem`, marginTop: `-2.5rem`, height: 45, position: 'sticky', top: '0', minWidth: 550 }}>
+    <div style={{ margin: `3rem auto`, maxWidth: 925, minWidth: 550, padding: `0 1rem`  }}>
+       <header style={{ marginBottom: `0rem`, marginTop: `-2.5rem`, height: 45, position: 'sticky', top: '0', minWidth: 550, zIndex: '4' }}>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h3 style={{ letterSpacing: "0.05em", color: 'white', display: `inline`, marginLeft: '.5rem' }}>voiceofbryan.com</h3>
         </Link>
