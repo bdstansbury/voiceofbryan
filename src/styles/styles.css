@@ -6,8 +6,11 @@
   font-family: inherit;
   width: 100%;
   padding: 5px 10px;
-  background-color: #324158;
+  background-color: rgba(0, 0, 0, 0);
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0);
+}
+.rhap_container, .rhap_container *:focus {
+  outline: none;
 }
 .rhap_container:focus:not(:focus-visible) {
   outline: 0;
@@ -45,7 +48,7 @@
   flex-direction: row-reverse;
 }
 .rhap_horizontal-reverse .rhap_controls-section {
-  margin-right: 8px;
+  margin-right: -25px;
 }
 
 .rhap_stacked-reverse {
@@ -76,7 +79,7 @@
 }
 
 .rhap_time {
-  display: none;
+  display: flex;
   color: #fff;
   font-size: 16px;
   user-select: none;
@@ -121,7 +124,7 @@
   height: 10px;
   margin-left: -10px;
   top: -4px;
-  background: #2A8A9D;
+  background: #43d3f0;
   border-radius: 50px;
   box-shadow: rgba(134, 134, 134, 0.5) 0 0 5px;
 }
@@ -134,7 +137,7 @@
 }
 
 .rhap_additional-controls {
-  display: none;
+  display: flex;
   flex: 1 0 auto;
   align-items: center;
 }
@@ -143,7 +146,7 @@
   font-size: 26px;
   width: 26px;
   height: 26px;
-  color: #2A8A9D;
+  color: #43d3f0;
   margin-right: 6px;
 }
 
@@ -152,11 +155,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: -45px;
 }
 
 .rhap_main-controls-button {
   margin: 0 3px;
-  color: #2A8A9D;
+  color: #43d3f0;
   font-size: 35px;
   width: 35px;
   height: 35px;
@@ -180,7 +184,7 @@
   font-size: 20px;
   width: 20px;
   height: 20px;
-  color: #2A8A9D;
+  color: #43d3f0;
   margin-right: 6px;
 }
 
@@ -219,7 +223,7 @@
   margin-left: -6px;
   left: 0;
   top: -4px;
-  background: #2A8A9D;
+  background: #43d3f0;
   opacity: 0.9;
   border-radius: 50px;
   box-shadow: rgba(134, 134, 134, 0.5) 0 0 3px;
