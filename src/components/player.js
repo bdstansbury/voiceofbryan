@@ -11,7 +11,8 @@ export default function Player(props, { children }) {
        autoPlay={ false }
        src={props.playerSrc}
        layout="horizontal-reverse"
-       onPlay={e => console.log("onPlay")}
+       customVolumeControls={[]}
+       customAdditionalControls={[]}
        showJumpControls={ false }
        showDownloadProgress={ false }
 
