@@ -9,7 +9,7 @@ export default function Contact() {
       <img src={Banner} alt="Books Water Bryan Stansbury Audiobook Narrator" style={{ minwidth: 650 }}/>
       <Title titleText="talk to bryan" />
       <p>
-        <a href="bstansburyvoice@gmail.com">bstansburyvoice@gmail.com</a>
+        <a href="mailto:bstansburyvoice@gmail.com">bstansburyvoice@gmail.com</a>
       </p>
     </Layout>
   )
